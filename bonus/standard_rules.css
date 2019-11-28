@@ -16,19 +16,49 @@ html {
 }
 /* /centered */
 
+/* regole sui buttons */
 .btn {
   border-radius: 5px;
   padding: 5px 10px;
 }
 
+/* regole su liste */
 .list-inline-block > li {
   display: inline-block;
 }
-
 .list-style-none {
   list-style: none;
 }
 
+/* regole su testo */
 .txt-decoration-none {
   text-decoration: none;
+}
+.txt-align-c {
+  text-align: center;
+}
+.txt-align-l {
+  text-align: left;
+}
+.txt-align-r {
+  text-align: right;
+}
+.bold {
+  font-weight: 700;
+}
+.no-bold {
+  font-weight: 400;
+}
+
+/* regole su elementi flottanti */
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.float-l {
+  float: left;
+}
+.float-r {
+  float: right;
 }
