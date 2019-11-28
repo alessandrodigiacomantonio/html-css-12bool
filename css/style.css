@@ -1,0 +1,27 @@
+.container {
+  background-color: pink;
+}
+
+[class*="col-"] {
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.centered {
+  position: relative;
+}
+.centered > * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.row-5 .left,
+.row-5 .right {
+  padding: 5px;
+}
+.row-5 .left [class*="col-"],
+.row-5 .right [class*="col-"] {
+  border: 1px solid #fff;
+  background-color: rgba(255, 0, 0, 0.3);
+}
