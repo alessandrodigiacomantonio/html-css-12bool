@@ -62,3 +62,8 @@ html {
 .float-r {
   float: right;
 }
+
+/* regole su bordi */
+.border-circle {
+  border-radius: 50%;
+}
