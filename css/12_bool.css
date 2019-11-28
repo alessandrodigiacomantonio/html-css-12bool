@@ -92,3 +92,17 @@
   margin-left: calc((100% / 12) * 11);
 }
 /* /misure vari offset */
+
+/* IMPORTANTE: la classe .debug va inserita nel <body> */
+.debug {
+  background-color: lightgreen;
+}
+.debug .container {
+  background-color: green;
+  border: 2px solid blue;
+}
+.debug [class*="col-"] {
+  background-color: #c5c5c5;
+  border: 1px solid white;
+}
+/* /debug */

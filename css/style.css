@@ -24,4 +24,5 @@
 .row-5 .right [class*="col-"] {
   border: 1px solid #fff;
   background-color: rgba(255, 0, 0, 0.3);
+  height: 190px;
 }
