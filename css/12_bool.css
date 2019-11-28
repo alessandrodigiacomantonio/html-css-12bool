@@ -97,7 +97,7 @@
 .debug {
   background-color: lightgreen;
 }
-.debug .container {
+.debug .container-12col {
   background-color: green;
   border: 2px solid blue;
 }
